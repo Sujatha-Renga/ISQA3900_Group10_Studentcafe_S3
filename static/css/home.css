@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Text:100, 300, 400, 500, 600, 700, 800, 900&display=swap');
+
+/* font-family: 'Big Shoulders Text', cursive; */
+
+.nav-flex-row {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	position: absolute;
+	z-index: 100;
+	left: 0;
+	width: 100%;
+	padding: 0;
+}
+
+.nav-flex-row li {
+	text-decoration: none;
+	list-style-type: none;
+	padding: 20px 20px;
+}
+
+.nav-flex-row li a {
+	font-family: 'Big Shoulders Text', cursive;
+	color: #000;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: 350;
+}
+
+
+.section-intro {
+	height: 200px;
+	background-image: url("../images/Header_bg.jpg");
+	background-size: cover;
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-repeat: no-repeat;
+}
+
+.section-intro h1 {
+	text-align: center;
+	color: #000;
+	font-size: 4em;
+	font-weight: 700;
+}
+
+.section-intro header {
+	display: flex;
+	flex: 4;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.link-to-book {
+	color: #110202;
+	display: block;
+	border: 0px solid #110101; /*This is just an arrangment, i dont know how to remove 'eat now' button so i just remove the border*/
+	padding: 5px 10px;
+}
+
+/* use not knowm
+a.link-to-book:hover {
+	background-color: #ffffff;
+	color: #95999e;
+	text-decoration: none;
+}
+*/
+
+/*corousel section
+.carousel-inner{
+	background-size: cover;
+	display:flex;
+	justify-content: center;
+}
+*/
+/*
+.about-section p,
+.about-section h3 {
+	text-align: center;
+	width: 60%;
+	margin: auto;
+	font-family: 'Big Shoulders Text', cursive;
+	font-size: 1.8em;
+	text-transform: uppercase;
+}
+
+
+.carousel-inner {
+	height: 300px;
+}
+*/
+.row-flex {
+	display: flex;
+	flex-direction: row;
+}
+
+.flex-column-form {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	margin: 30px 20px;
+}
+
+.btn.btn-primary {
+	font-family: 'Big Shoulders Text', cursive;
+	color: #ffffff;
+	background-color: #95999e;
+	text-transform: uppercase;
+	font-size: 16px;
+	padding: 5px 10px;
+	letter-spacing: 2px;
+	border: 0;
+}
+
+.btn.btn-primary:hover {
+	background-color: #747474;
+}
+.opening-time,
+.contact-address {
+	flex: 1;
+	margin: 30px 20px;
+	font-size: 1.2em;
+}
+
+.form-group p {
+	font-size: 1.2em;
+}
+
+.opening-time p span,
+.contact-address p span {
+	display: block;
+}
+/* use of this section not known
+@media (min-width:577px) and (max-width: 800px) {
+
+	.section-intro {
+		height: 800px;
+	}
+
+	.about-section p,
+	.about-section h3 {
+		font-size: 20px;
+	}
+
+	.carousel-inner {
+		height: auto;
+	}
+
+	.row-flex {
+		display: flex;
+		flex-direction: column;
+	}
+}
+*/
+
+/* Use of this section not known
+@media screen and (max-width: 576px) {
+	.section-intro {
+		height: 300px;
+	}
+
+	.about-section {
+		padding: 30px;
+	}
+
+	.section-intro h1 {
+		font-size: 2em;
+	}
+
+	.about-section p,
+	.about-section h3 {
+		font-size: 15px;
+	}
+
+	.carousel-inner {
+		height: auto;
+	}
+
+	.row-flex {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.row-flex h3 {
+		font-size: 25px;
+		text-align: center;
+	}
+
+	.form-group p {
+		font-size: 15px;
+	}
+
+	.opening-time p span,
+	.contact-address p span {
+		font-size: 15px;
+		text-align: center;
+	}
+
+}
+*/
+.menu-container {
+	width: 100%;
+	height:auto;
+	overflow:auto;
+	#background-color:rgb(197, 200, 202);
+	text-align: center;
+	font-family: 'Big Shoulders Text', cursive;
+	font-size: 20px;
+}
+.category-1{
+	float: left;
+	width: 25%;
+	height: 250px;
+	text-align: center;
+	padding: 15px;
+	margin: 25px 25px 25px 100px
+}
+.nav-item .nav-link{
+font-family:'Big Shoulders Text', cursive;
+}
+.category-2{
+	float: left;
+	width: 25%;
+	#background-color: rgb(130, 156, 156);
+	margin: 25px 25px 25px 25px;
+	padding: 15px;
+}
+
+.category-3{
+	float: left;
+	width: 25%;
+	#background-color: rgb(5, 71, 71);
+	padding: 15px;
+	margin: 25px 0px 25px 25px;
+}
+.head-categ{
+	text-align: center;
+	font-family: 'Big Shoulders Text', cursive;
+
+}
+
+#main {
+	align-items: center;
+   	width: 96%;
+    overflow:hidden;
+	margin-left: 50px
+}
+
+#imageshot {
+
+    border-radius: 20px;
+}
+
+.product-list .item {
+    width:25%;
+    padding:10px 20px 10px 0px;
+    float:left;
+    text-align:center;
+    line-height:1.2;
+	margin: 40px;
+	border-radius: 20px;
+}
+
+.product-list .item img {
+    width:100%;
+
+    margin-bottom:8px;border-radius:20px;
+}
+
+.product-detail {
+    text-align:justify;
+	margin: 50px;
+}
+
+.product-detail .price {
+	color: #747474;
+    font-size:25px;
+    font-weight: normal;
+}
+
+
+.product-detail img {
+    width:40%;
+    float:left;
+    padding: 0px 20px 20px 0;
+}
+
+.product-detail h1 {
+    margin-bottom:0;
+}
+
+.product-detail h2 {
+    margin-top:10px;
+}
+
+#section
+{
+	height:75%;
+	width:75%
+}
